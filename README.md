@@ -1,9 +1,10 @@
+
 # Socket Express
 
-A socket io express typescript server with redis adapters to handle the socket from anywhere with adapters from different server that will directly be handled with redis
+A socket io express server with redis adapters to handle the socket from anywhere with adapters from different server that will directly be handled with redis
 
 
-## Installation for dev
+## Installation
 
 Install on development
 
@@ -13,12 +14,19 @@ Install on development
   yarn dev
 ```
 
-## Installation on Production
+## Installation
 
-Install fro Production
+Install on development
 
 ```bash
-  yarn install 
-
   yarn build
+
+  yarn start
 ```
+
+## Socket Adapters Example
+
+![Socket Adapter Screenshot](https://socket.io/images/broadcasting-redis.png)
+## Socket Emitter Example for the other servers
+
+![Socket Emitter Screenshot](https://socket.io/images/redis-emitter.png)
